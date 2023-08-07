@@ -1,12 +1,12 @@
 # Project 16：Burglar Alarm
 
-### 1.**Introduction**
+1.**Introduction**
 
 PIR motion sensor measures the thermal infrared (IR) light emitted by moving objects. The sensor can detect the movement of people, animals, and cars to trigger safety alarms and lighting. They are used to detect movement and ideal for security such as burglar alarms and security lighting systems. 
 
 In this project, we will use a PIR motion sensor and buzzer to detect sounds when people or animals approach.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps19.png)                 | ![img](media/wps20-168412206485441.jpg) | ![img](media/wps21-168412206595042.jpg) | ![img](media/wps22-168412206703643.jpg) | ![img](media/wps23-168412206850244.jpg) |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -14,7 +14,7 @@ In this project, we will use a PIR motion sensor and buzzer to detect sounds whe
 | ![img](media/wps24-168412207624646.jpg) | ![img](media/wps25-168412207473445.jpg) | ![img](media/wps26.jpg)                 | ![img](media/wps27.jpg)                 | ![img](media/wps28.jpg)                 |
 | Breadboard*1                            | F-F Dupont Wires                        | 220Ω Resistor*1                         | USB Cable*1                             | Jumper Wires                            |
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/8e3b58bf8501a7674b44bfe8c4286c57.png)
 
@@ -33,7 +33,7 @@ Since vulnerable to radio frequency radiation and temperature changes, the PIR m
 
 
 
-### 4.**Features:**
+4.**Features:**
 
 - Maximum input voltage: DC 3.3 ~ 5V
 
@@ -57,19 +57,19 @@ Since vulnerable to radio frequency radiation and temperature changes, the PIR m
 
 
 
-### 5.**Schematic diagram:**
+5.**Schematic diagram:**
 
 ![](/media/9e1ec604aa6f9d4a3c1fe41d4bccd699.png)
 
 
 
-### 6.**Circuit Diagram and Wiring Diagram**
+6.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/8af6a40d69c138216548320abc46ed35.png)
 
 ![](/media/d028bb819eed7cf3a08af69a47ecfce6.png)
 
-### 7.**Test Code：**
+7.**Test Code：**
 
 You can open the code we provide:
 
@@ -124,6 +124,6 @@ The code was uploaded successfully.
 
 ![](/media/7c6522fbc3829e0dcea07284a22fb1d2.png)
 
-### 8.**Test Result：**
+8.**Test Result：**
 
 Upload the code and power up. The active buzzer will alarm and LED will flash, if people are detected

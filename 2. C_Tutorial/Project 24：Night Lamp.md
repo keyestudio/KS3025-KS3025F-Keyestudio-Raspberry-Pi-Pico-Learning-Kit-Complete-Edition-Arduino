@@ -1,6 +1,6 @@
 # Project 24：Night Lamp
 
-### 1.**Introduction**
+1.**Introduction**
 
 Sensors or components are ubiquitous in our daily life. For example, some public street lights turn on automatically at night and turn off automatically during the day. Why? In fact, this make use of a photosensitive element that senses the intensity of external ambient light. 
 
@@ -10,7 +10,7 @@ In this lesson we will use Raspberry Pi Pico to control LEDs to implement the fu
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps24.png) | ![img](media/wps25-168412379177468.jpg) | ![img](media/wps26-168412379651069.jpg) | ![img](media/wps27-168412379804570.jpg) | ![img](media/wps28-168412379930171.jpg) |
 | ----------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -20,7 +20,7 @@ In this lesson we will use Raspberry Pi Pico to control LEDs to implement the fu
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/9e553e75b6f976f33438171eb2f2e775.png" style="zoom:25%;" />
 
@@ -41,7 +41,7 @@ Thus, the intensity of light can be obtained by measuring this voltage.
 
 
 
-### 4.**Read the Analog Value**
+4.**Read the Analog Value**
 
 We first use a simple code to read the value of the photoresistor, print it in the serial monitor. For wiring, please refer to the following wiring diagram.
 
@@ -49,7 +49,7 @@ We first use a simple code to read the value of the photoresistor, print it in t
 
 ![](/media/b97ff27ae10e3499c36312c8ee4881f8.png)
 
-### 5.**Test Code**
+5.**Test Code**
 
 Go to the folder KS3025 Keyestudio Raspberry Pi Pico Learning Kit Complete Edition\\2. Windows System\\2. C\_Tutorial\\2. Projects\\Project 24：Night Lamp\\Project\_24.1\_Read\_Photosensitive\_Analog\_Value.
 
@@ -96,7 +96,7 @@ Then you can read the analog value of photoresistor. When the light intensity ar
 
 ![](/media/b578ae0004b44405bac340bc62138a80.png)
 
-### 6.**Circuit Diagram and Wiring Diagram**
+6.**Circuit Diagram and Wiring Diagram**
 
 Next, we make a light-control lamp.
 
@@ -146,6 +146,6 @@ The code was uploaded successfully.
 
 ![](/media/8d1f2a698fae68f8de0e1820f5ac288e.png)
 
-### 7.**Test Results:**
+7.**Test Results:**
 
 After the project code is uploaded successfully and power up. when the light intensity gets weak, the LED will becomes brighter; otherwise, the LED will become darker.

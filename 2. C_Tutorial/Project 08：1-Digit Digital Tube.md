@@ -1,13 +1,13 @@
 # Project 08: 1-Digit Digital Tube
 
-### 1.**Introduction**
+1.**Introduction**
 
 The seven-segment digital tube is an electronic display device that displays decimal numbers. It is widely used in digital clocks,
 electronic meters, basic calculators and other electronic devices that display digital information. 
 
 The tubes are an alternative to more complex dot-matrix displays that are easy to use in both limited light conditions and strong sunlight. In this project, we will use the PLUS control board to control 1-digit digital tube to display numbers.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps8.png)                  | ![img](media/wps9-168411049519316.jpg)  | ![img](media/wps10.jpg)                 |                                         |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -17,7 +17,7 @@ The tubes are an alternative to more complex dot-matrix displays that are easy t
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/e44a0f27beec739ee13e68c04865989f.png)
 
@@ -35,7 +35,7 @@ Each part of the digital tube is composed of an LED. So when you use it, you als
 
 As we mentioned above, you should connect the common cathode to GND. To light up a segmented LED, you can set its associated pin to“HIGH”.
 
-### 4.**Circuit Diagram and Wiring Diagram**
+4.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/84e67e0ce2d7627a96b83156324d92d5.png)
 
@@ -45,7 +45,7 @@ As we mentioned above, you should connect the common cathode to GND. To light up
 
 ![](/media/d99daa4165cf32b2283aae82466981bd.png)
 
-### 5.**Test Code：**
+5.**Test Code：**
 
 The number display is divided into 7 segments, and the decimal point display is divided into 1 segment. When certain numbers are displayed, the corresponding segment will be lit. For example, when the number 1 is displayed, segments b and c will be turned on.
 
@@ -226,6 +226,6 @@ The code was uploaded successfully.
 
 ![](/media/3ab9bd32802b1aeda78046692fe49a05.png)
 
-### 6.**Result**
+6.**Result**
 
 After burning the project code, connecting the wires and powering on, 1-digit digital tube will display numbers from 9 to 0.

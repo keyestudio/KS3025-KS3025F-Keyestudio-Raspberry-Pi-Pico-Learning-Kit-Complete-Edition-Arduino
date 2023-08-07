@@ -1,6 +1,6 @@
 # Project 28：Ultrasonic Ranger
 
-### **1. Introduction**
+**1. Introduction**
 
 The HC-SR04 ultrasonic sensor is a very affordable distance sensor, mainly used for obstacle avoidance in various robotic projects. It is also used for water level sensing and even as a parking sensor. We treat the ultrasonic sensors as bat's eyes. 
 
@@ -8,7 +8,7 @@ In the dark, bats can still identify objects in front of them and directions thr
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![img](media/wps27.png)                 | ![img](media/wps28-168412904294925.jpg) | ![img](media/wps29-168412904465526.jpg) |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -20,7 +20,7 @@ In the dark, bats can still identify objects in front of them and directions thr
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
 **HC-SR04 ultrasonic sensor:** 
 
@@ -38,7 +38,7 @@ If you look at the back of the ultrasonic sensor, you will see an IC behind the 
 
 
 
-### **4. Sequence Diagram:**
+**4. Sequence Diagram:**
 
 The figure shows the sequence diagram of the HC-SR04. To start the measurement, the Trig of SR04 must receive at least 10us high pulse(5V), which will activate the sensor to emit 8 cycles of 40kHz ultrasonic pulses, and wait for the reflected ultrasonic pulses. 
 
@@ -54,7 +54,7 @@ Distance in inches = time / 148
 
 
 
-### **5. Read the Distance Value**
+**5. Read the Distance Value**
 
 We will start with a simple ultrasonic distance measurement and output the measured distance on the serial monitor.
 
@@ -136,7 +136,7 @@ The monitor will show distance vales between the sensor and the obstacle.
 
 
 
-### **6. Circuit Diagram and Wiring Diagram**
+**6. Circuit Diagram and Wiring Diagram**
 
 Next, we will make a simple ultrasonic ranger using a Raspberry Pi Pico to control an ultrasonic sensor and 4 LED lights. Connect the wires as shown below.
 
@@ -235,7 +235,7 @@ The code was uploaded successfully.
 
 ![](/media/c79d684048e0c8621737009095631ed7.png)
 
-### **7. Test Result：**
+**7. Test Result：**
 
 Upload the code to the pico board, power up with a USB cable and open the serial monitor and set baud rate to 115200.
 

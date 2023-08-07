@@ -1,12 +1,12 @@
 # Project 32：WiFi Test
 
-### 1.**Introduction**
+1.**Introduction**
 
 ESP8266 serial WiFi ESP-01 module is an ultra-low-power UART-WiFi transparent transmission module and designed for mobile devices and IoT applications. The physical device of the user can be connected to Wi-Fi wireless network for Internet or LAN communication to realize networking functions.
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps20-168412994616258.jpg) | ![img](media/wps21-168412994797059.png)    |
 | --------------------------------------- | ------------------------------------------ |
@@ -14,7 +14,7 @@ ESP8266 serial WiFi ESP-01 module is an ultra-low-power UART-WiFi transparent tr
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![image-20230515135301787](media/image-20230515135301787.png)
 
@@ -33,7 +33,7 @@ ESP8266 serial WiFi ESP-01 is an ultra-low-power UART-WiFi transparent transmiss
 
 
 
-### 4.**Interface the Shield with the Computer**
+4.**Interface the Shield with the Computer**
 
 Insert the ESP8266 serial WiFi ESP-01 module in the correct orientation into the USB to ESP-01S WiFi module serial shield.
 
@@ -73,7 +73,7 @@ After the driver installation is complete,  click“Computer”—\>“Propertie
 
 ![](/media/b789da49848ee630fdfda5f26edf7dde.png)
 
-### 5.**Set up** **the Development Environment**
+5.**Set up** **the Development Environment**
 
 Insert the ESP8266 serial WiFi ESP-01 module into the USB to ESP-01S WiFi module serial shield correctly, and then plug the shield into the USB port of the computer. 
 
@@ -133,7 +133,7 @@ Select the corresponding ESP8266 development board model and COM port to program
 
 
 
-### 6.**WiFi Test Code**
+6.**WiFi Test Code**
 
 Note: After opening the IDE, set the board type and COM port first. If you don't have WiFi at home, you can turn your phone hotspot on to share WiFi.
 
@@ -258,7 +258,7 @@ void loop(void) {
 
 
 
-### 7.**Result**
+7.**Result**
 
 Note: You need to change the user WiFi name and user WiFi password in the project code to your own WiFi name and WiFi password.
 

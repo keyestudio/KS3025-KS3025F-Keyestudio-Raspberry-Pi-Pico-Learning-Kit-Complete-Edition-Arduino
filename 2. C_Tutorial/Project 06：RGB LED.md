@@ -1,12 +1,12 @@
 # Project 06: RGB LED
 
-### 1.**Introduction**
+1.**Introduction**
 
 ![](/media/94bdff69e438989d8e0934e57f2e5c00.png)
 
 In this project, we will introduce the RGB LED and show you how to use the Plus control board to control the RGB LED. Even though RGB LED is very basic, it is also a great way to learn the fundamentals of electronics and coding.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps10.png) | ![img](media/wps11.jpg)             | ![img](media/wps12.jpg) |                         |
 | ----------------------- | ----------------------------------- | ----------------------- | ----------------------- |
@@ -14,7 +14,7 @@ In this project, we will introduce the RGB LED and show you how to use the Plus 
 | ![img](media/wps13.jpg) | ![img](media/wps14.jpg)             | ![img](media/wps15.jpg) | ![img](media/wps16.jpg) |
 | 220Ω Resistor*3         | Breadboard*1                        | Jumper Wires            | USB Cable*1             |
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **RGB LED：**
 
@@ -26,7 +26,7 @@ The monitors mostly adopt the RGB color standard, and all the colors on the comp
 
 This RGB LED has pin R, G and B and a common cathode. To change its brightness, we can use the PWM pins which can give different duty cycle signals to the RGB LED to produce different colors.
 
-### 4.**Circuit Diagram and Wiring Diagram**
+4.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/f6950bc8498e6139cbb67db84cdd5a9a.png)
 
@@ -42,7 +42,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](/media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### 5.**Test Code：**
+5.**Test Code：**
 
 We need to create three PWM channels and use random duty cycles to light up the RGB LEDs randomly.
 
@@ -94,6 +94,6 @@ The code was uploaded successfully.
 
 ![](/media/5a19f7d07f6093f14a1acfbc4e3604ef.png)
 
-### 6.**Result**
+6.**Result**
 
 Upload the project code, wire up, power up and wait a few seconds, the RGB will show random colors.

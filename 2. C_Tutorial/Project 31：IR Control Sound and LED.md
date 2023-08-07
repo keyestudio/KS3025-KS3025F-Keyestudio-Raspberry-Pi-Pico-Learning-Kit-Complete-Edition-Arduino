@@ -1,6 +1,6 @@
 # Project 31：IR Control Sound and LED
 
-### 1.**Introduction**
+1.**Introduction**
 
 Infrared remote control is a low-cost, easy-to-use wireless communication technology. IR light is very similar to visible light, except that it has a slightly longer wavelength. This means that infrared rays cannot be detected by the human eye, which is perfect for wireless communication. 
 
@@ -8,7 +8,7 @@ For example, when you press a button on the TV remote control, an infrared LED w
 
 We will first explain how common IR communication protocols work. Then we will start this project with a remote control and an IR receiving component.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps9.png)                  | ![img](media/wps10-168412964920348.jpg) | ![img](media/wps11-168412966390749.jpg) | ![img](media/wps12-168412966765450.jpg) | ![img](media/wps13-168412966951451.jpg) |                                         |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -18,7 +18,7 @@ We will first explain how common IR communication protocols work. Then we will s
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **IR Remote Controller**: 
 
@@ -107,7 +107,7 @@ Keep in mind that 256 address values of the extended protocol are invalid becaus
 
 
 
-### 4.**Decoding**
+4.**Decoding**
 
 Wire up the pico board
 
@@ -173,7 +173,7 @@ Upload the code to the pico board, power up with a USB cable and open the serial
 
 ![](/media/d170f9c106c16175d34f20fdaa0f8970.png)
 
-### 5.**Test Code**
+5.**Test Code**
 
 Go to the folder KS3025 Keyestudio Raspberry Pi Pico Learning Kit Complete Edition\\2. Windows System\\2. C\_Tutorial\\2. Projects\\Project 31：IR Control Sound and LED\\Project\_31.2\_IR\_Control\_Sound\_And\_LED.
 
@@ -291,7 +291,7 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/853f725242eb7068f1281d590968ea5c.png)
 
-### 6.**Test Result**
+6.**Test Result**
 
 Upload the code and power up. Press the key 1-7, the buzzer will emit do, re, mi, fa, sol, la and si, at same time, the RGB will show red, green, blue, yellow, dark red, blue-green and white color. If pressing the rest of keys, the buzzer will stop playing and the RGB will be off.
 

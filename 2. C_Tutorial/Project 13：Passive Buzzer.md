@@ -1,11 +1,11 @@
 # Project 13：Passive Buzzer
 
-### 1.**Introduction**
+1.**Introduction**
 
 In this project, we will learn the passive buzzer and use the Plus control board to control the passive buzzer to play a song. Unlike an active buzzer, a passive buzzer can emit sounds of different
 frequencies.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps7.png)                  | ![img](media/wps8-168412171607919.jpg)  | ![img](media/wps9-168412172147820.jpg)  |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -15,7 +15,7 @@ frequencies.
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/8d0020e53824072cbe9d4f7d2f8acb4f.png)
 
@@ -25,13 +25,13 @@ The two buzzers are very similar in appearance, but one buzzer with a green circ
 
 ![](/media/fc42c5ed014609ff0b290ee5361bb2fd.png)
 
-### 4.**Circuit Diagram and Wiring Diagram**
+4.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/e0da1ccdbff24d256db130816c55da74.png)
 
 ![](/media/e601e48f8deddb3e9e7734d0022106b3.png)
 
-### 5.**Test Code：**
+5.**Test Code：**
 
 You can open the code we provide:
 
@@ -93,6 +93,6 @@ The code was uploaded successfully.
 
 ![](/media/ddfea52b611785f1ed44767d6b36419a.png)
 
-### 6.**Result**
+6.**Result**
 
 Upload the project code, wire up and power on, then the passive buzzer will alarm.

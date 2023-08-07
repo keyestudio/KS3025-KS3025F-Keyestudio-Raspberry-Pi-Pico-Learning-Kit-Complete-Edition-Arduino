@@ -1,6 +1,6 @@
 # Project 29：Temperature Instrument
 
-### 1.**Introduction**
+1.**Introduction**
 
 LM35 is a commonly used and easy-to-use temperature sensor. It does not require other hardware, only needs an analog port. The difficulty lies in compiling the code and converting the analog values to Celsius temperature. 
 
@@ -8,7 +8,7 @@ In this project, we use a temperature sensor and 3 LEDs to make a temperature te
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps36-168412922685432.png) | ![img](media/wps37-168412922822933.jpg) | ![img](media/wps38-168412923019734.jpg) |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -20,7 +20,7 @@ In this project, we use a temperature sensor and 3 LEDs to make a temperature te
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **Thermistor**: 
 
@@ -56,7 +56,7 @@ Therefore, the temperature formula can be deduced as:
 
 ![img](media/wps46-168412931966840.png)
 
-### 4.**Read the Values**
+4.**Read the Values**
 
 First we will learn the thermistor to read the current ADC value, voltage value and temperature value and print them out . Please connect the wires according to the following wiring diagram.
 
@@ -121,7 +121,7 @@ A 20CM long male-to-female DuPont cable is not required because the LCD\_128X32\
 
 ![](/media/91445212232765942d482b84da03f598.png)
 
-### 5.**Adding the lcd128\_32\_io library：**
+5.**Adding the lcd128\_32\_io library：**
 
 If you added the **lcd128\_32\_io library, just skip this step.**
 
@@ -133,7 +133,7 @@ Open Arduino IDE，click “Sketch”→“Include Library”→“Add .zip Libr
 
 ![](/media/7e9f9bb78e814f063632bd09762c85da.png)
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide:
 
@@ -194,6 +194,6 @@ The code was uploaded successfully.
 
 ![](/media/c38fb4d16283a964daa459d79f6aed2a.png)
 
-### 7.**Test Result：**
+7.**Test Result：**
 
 Upload the code and power up with a USB cable. The LCD 128X32 DOT will show the voltage value and temperature value.

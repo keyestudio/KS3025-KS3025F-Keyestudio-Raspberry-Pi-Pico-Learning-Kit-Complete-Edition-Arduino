@@ -1,6 +1,6 @@
 # Project 21: Relay
 
-### 1.**Introduction**
+1.**Introduction**
 
 In daily life, we generally use AC to drive electrical equipment, and sometimes we use switches to control electrical appliances. If the switch is directly connected to the AC circuit, once electricity leakage occurs, people are in danger. 
 
@@ -10,13 +10,13 @@ In this lesson we will learn a special and easy-to-use switch, which is the rela
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps1-168412275969947.png) | ![img](media/wps2-168412276415948.jpg) | ![img](media/wps3-168412276542949.jpg) | ![img](media/wps4-168412276649150.jpg) | ![img](media/wps5-168412276782951.jpg) |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
 | Raspberry Pi Pico*1                    | Raspberry Pi Pico Expansion Board*1    | Relay Module*1                         | M-F Dupont Wire                        | USB Cable*1                            |
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **Relay:** It is an "automatic switch" that uses a small current to control the operation of a large current.
 
@@ -30,13 +30,13 @@ The rated load means that a 5V Arduino can be used to control a device with a 24
 
 
 
-### 4.**Schematic Diagram and Wiring Diagram**
+4.**Schematic Diagram and Wiring Diagram**
 
 ![](/media/bfe4e5e68d12e715c50f8aa5797a689c.png)
 
 ![](/media/0e76ea13b2034301be2ecdfde7f21f1e.png)
 
-### 5.**Test Code：**
+5.**Test Code：**
 
 You can open the code we provide:
 
@@ -77,6 +77,6 @@ The code was uploaded successfully.
 
 ![](/media/60d4972ad22ae3bd3a745e8c2db50d83.png)
 
-### 6.**Result**
+6.**Result**
 
 Upload the code to successfully, wire up and power on, the relay will be turned on (ON end is connected) for 1 second, and stop (NC end is connected) for 1s.

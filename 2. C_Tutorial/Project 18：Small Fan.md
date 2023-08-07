@@ -1,10 +1,10 @@
 # Project 18：Small Fan
 
-### 1.**Introduction**
+1.**Introduction**
 
 In the hot summer, we need an electric fan to cool us down, so in this project, we will use the Plus control board to control 130 motor module and small blade to make a small fan.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps33.png) | ![img](media/wps34.jpg)             |                         |
 | ----------------------- | ----------------------------------- | ----------------------- |
@@ -16,7 +16,7 @@ In the hot summer, we need an electric fan to cool us down, so in this project, 
 
 
 
-### 3. **Component Knowledge:**
+3. **Component Knowledge:**
 
 ![](/media/5fe5f8cd6e75e7f8d4ec71f54a4ac2f5.png)
 
@@ -55,13 +55,13 @@ When driving a small DC motor, the control of two-channel motors and the forward
 
 
 
-### 4.**Circuit diagram and wiring diagram：**
+4.**Circuit diagram and wiring diagram：**
 
 ![](/media/40a4235ff016ce29140f3c7cedab4610.png)
 
 ![](/media/5d8dc14f86142189160f2c30f4641bb8.png)
 
-### 5.**Test Code：**
+5.**Test Code：**
 
 You can open the code we provide:
 
@@ -116,6 +116,6 @@ Click ![](/media/b0d41283bf5ae66d2d5ab45db15331ba.png) to upload the test code t
 
 ![](/media/61f3cbff0711ae58cc54bd0f8fa864dd.png)
 
-### 6.**Test Result：**
+6.**Test Result：**
 
 Upload the code and power up with a USB cable. You can see the fan rotate anticlockwise for 5s, stop for 2s, clockwise for 5s and stop for 2s.

@@ -1,12 +1,12 @@
 # Project 11：74HC595N Control 8 LEDs 
 
-### 1.**Introduction**
+1.**Introduction**
 
 For a PLUS mainboard, it has only 22 I/O ports, how do we light up a large number of LEDs? 
 
 In this project, we will use 74HC595N to control 7 LEDs to save port resources.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps18.png) | ![img](media/wps19.jpg)             | ![img](media/wps20.jpg) | ![img](media/wps21.jpg) |
 | ----------------------- | ----------------------------------- | ----------------------- | ----------------------- |
@@ -37,7 +37,7 @@ The 8-bit shift register can be reset asynchronously (low-level reset), and the 
 
 VCC and GND are used used for chip power supply, and the operating voltage is 5V.
 
-### 3.**Circuit Diagram and Wiring Diagram**
+3.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/1738cecf584c83b55370153ebc1688b7.png)
 
@@ -47,7 +47,7 @@ Note: Pay attention to the direction in which the 74HC595N chip is inserted.
 
 ![](/media/91833532723f4ee623902c0252092741.png)
 
-### 4.**Test Code：**
+4.**Test Code：**
 
 You can open the code we provide:
 
@@ -112,6 +112,6 @@ The code was uploaded successfully.
 
 ![](/media/0c2518af4266e7ec9212a7484414839c.png)
 
-### 5.**Result**
+5.**Result**
 
 Upload project code, wire up and power on, then you can see 8 LED flash like a flowing light.

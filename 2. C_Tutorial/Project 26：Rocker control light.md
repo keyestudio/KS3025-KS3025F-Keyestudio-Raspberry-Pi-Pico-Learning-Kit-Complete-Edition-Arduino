@@ -1,6 +1,6 @@
 # Project 26：Rocker control light
 
-### 1.**Introduction**
+1.**Introduction**
 
 The joystick module is a component with two analog inputs and one digital input. It is widely used in game operation, robot control, drone control and other fields.
 
@@ -8,7 +8,7 @@ In this project, we will use a Raspberry Pi Pico and a joystick module to contro
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps12.png)                 | ![img](media/wps13-168412843101312.jpg) | ![img](media/wps14-168412843224413.jpg) |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -20,7 +20,7 @@ In this project, we will use a Raspberry Pi Pico and a joystick module to contro
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/d087b123748cbfb8ed9f517150db71c5.png" style="zoom:50%;" />
 
@@ -42,7 +42,7 @@ In this way, we can read the two analog values and the high and low level condit
 
 
 
-### 4.**Features:**
+4.**Features:**
 
 Input Voltage: DC 3.3V \~ 5V
 
@@ -54,7 +54,7 @@ Product features: Exquisite appearance, joystick feel superior, simple operatio
 
 
 
-### 5.**Read the Value**
+5.**Read the Value**
 
 We have to use analog Raspberry Pi Pico pin IO to read the data from X or Y pins, and use digital IO port to read the values of the button. Please follow the wiring diagram below for wiring.
 
@@ -110,7 +110,7 @@ The monitor will show values of the joystick module while moving the joystick.
 
 ![](/media/9448c2e32f64ffa31f400e678f590d50.png)
 
-### 6.**Circuit Diagram and Wiring Diagram**
+6.**Circuit Diagram and Wiring Diagram**
 
 We just read the value of the joystick module. Now we need to do something with the joystick module and RGB, connecting according to the following diagram.
 
@@ -118,7 +118,7 @@ We just read the value of the joystick module. Now we need to do something with 
 
 ![](/media/68601044f75ee6840f0b97cad9bea891.png)
 
-### 7.**Test Result：**
+7.**Test Result：**
 
 You can open the code we provide:
 
@@ -185,7 +185,7 @@ The code was uploaded successfully.
 
 ![](/media/8bb9867117a33ecd53fbb6772b35a4f0.png)
 
-### 8.**Test Result：**
+8.**Test Result：**
 
 Upload the code and power up. If you move the joystick to the left, the RGB will turn red. If moving it to the right, the RGB will turn green; if moving it upward, the RGB will show white; if moving it downward, the RGB will become into blue.
 

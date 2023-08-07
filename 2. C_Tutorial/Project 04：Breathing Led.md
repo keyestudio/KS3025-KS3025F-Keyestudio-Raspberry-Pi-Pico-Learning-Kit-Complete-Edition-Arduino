@@ -1,14 +1,14 @@
 # Project 04: Breathing Led
 
-### 1.**Introduction**
+1.**Introduction**
 
 In this project, we will learn the PWM control of ARDUINO. PWM is Pulse Width Modulation, which is a technique that encodes analog signal levels into digital signal levels. We will use PWM to control the brightness of LED.
 
-### 2.**Components Required：**
+2.**Components Required：**
 
 ![image-20230515081450575](media/image-20230515081450575.png)
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/6549bdbfd4e7b6b2b341012105d655e8.png)
 
@@ -40,7 +40,7 @@ On the Plus control board, the PWM pins are 3, 5, 6, 9, 10, and 11. PWM pins are
 
 
 
-### 4.**Circuit Diagram and** **Wiring Diagram**
+4.**Circuit Diagram and** **Wiring Diagram**
 
 ![](/media/cb069d7553d861e3293d8bdbe85bbd05.png)
 
@@ -56,7 +56,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](/media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **5.Test Code：**
+**5.Test Code：**
 
 The design of this project makes GP16 output PWM, and the pulse width gradually increases from 0% to 100%, and then gradually decreases from 100% to 0%.
 
@@ -103,7 +103,7 @@ The code was uploaded successfully.
 
 ![](/media/bd515e04ca72e8eba1b6a046131d5e0a.png)
 
-### 6.**Result**
+6.**Result**
 
 After burning the project code, connecting the wires according to the wiring diagram, and powering on, the LED lights up gradually, and then gradually darkens.
 

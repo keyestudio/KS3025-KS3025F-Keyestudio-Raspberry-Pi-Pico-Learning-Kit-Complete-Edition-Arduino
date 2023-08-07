@@ -1,6 +1,6 @@
 # Project 27：Temperature Humidity Meter 
 
-### 1.**Introduction**
+1.**Introduction**
 
 In winter, the humidity in the air is very low, that is, the air is very dry. Coupled with the cold, the human skin is prone to crack from excessive dryness. Therefore, you need to use a humidifier to increase the humidity of the air at home. But how do you know that the air is too dry? Then you need equipment to detect air humidity.
 
@@ -8,7 +8,7 @@ In this lesson, we will learn how to use the XHT11 temperature and humidity sens
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps21.png)                 | ![img](media/wps22-168412867712520.jpg) | ![img](media/wps23-168412867839721.jpg) |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -18,7 +18,7 @@ In this lesson, we will learn how to use the XHT11 temperature and humidity sens
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 <img src="/media/34bafe8113e2db36c8f0c8492b835474.png" style="zoom:50%;" />
 
@@ -78,7 +78,7 @@ Digital interface
 
 
 
-### 4.**Read the Value**
+4.**Read the Value**
 
 First we learned how to use the serial monitor to print the values of the XHT11 sensor. Please connect the wires according to the wiring diagram below.
 
@@ -151,7 +151,7 @@ You will see the current temperature and humidity value detected by the sensor.
 
 ![](/media/c2e4e1444c841ffe08dc07eb1bef81d9.png)
 
-### 5.**Circuit Diagram and Wiring Diagram**
+5.**Circuit Diagram and Wiring Diagram**
 
 Now we start printing the value of the XHT11 temperature and humidity sensor with LCD screen. We will see the corresponding values on the LCD screen. Let's get started with this project. Please follow the wiring diagram below.
 
@@ -161,7 +161,7 @@ Note: You would better use the 10CM short male-to-female DuPont wire to connect 
 
 ![](/media/78cb8eb87aa36af901a7a839fbf7eb10.png)
 
-### 6.**Test Code**
+6.**Test Code**
 
 If the library DHT and lcd128\_32\_io are added, just skip this step.
 
@@ -226,6 +226,6 @@ The code was uploaded successfully.
 
 ![](/media/345e8782b7246200b0b8d9b21c3b78ab.png)
 
-### 7.**Test Result**
+7.**Test Result**
 
 Upload the code to the pico board and power up. The LCD\_128X32\_DOT displays temperature and humidity in the current environment.

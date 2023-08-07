@@ -1,12 +1,12 @@
 # Project 14: Mini Table Lamp
 
-### 1.**Introduction**
+1.**Introduction**
 
 Did you know that Arduino can light up an LED when you press a button?
 
 In this project, we will use the Plus Mainboard, a key switch and an LED to make a small desk lamp.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps13.png) | ![img](media/wps14-168412182610224.jpg) | ![img](media/wps15-168412182723625.jpg) | ![img](media/wps16-168412182831326.jpg) | ![img](media/wps17-168412182952627.jpg) |
 | ----------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
@@ -14,7 +14,7 @@ In this project, we will use the Plus Mainboard, a key switch and an LED to make
 | ![img](media/wps18.jpg) | ![img](media/wps19-168412183317528.jpg) | ![img](media/wps20-168412183461429.jpg) | ![img](media/wps21-168412183602230.jpg) | ![img](media/wps22-168412183750231.jpg) |
 | Breadboard*1            | 220Ω Resistor*1                         | USB Cable*1                             | Jumper Wires                            | Button Cap*1                            |
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/5b8fea4657b47510d199f740fdcaaa9d.png)
 
@@ -28,12 +28,12 @@ Before the button is pressed, 1 and 2 are on, 3 and 4 are also on, but 1, 3 or 1
 
 The key switch is one of the most commonly used components in circuit design.
 
-### 4.**Schematic diagram of the button:**
+4.**Schematic diagram of the button:**
 
 ![image-20230424165637145](media/image-20230424165637145.png)
 
 
-### 5.**Circuit Diagram and Wiring Diagram**
+5.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/0753a2a452e0292b31f79f9b6dabb0cc.png)
 
@@ -51,7 +51,7 @@ How to identify the 220Ω 5-band resistor and 10KΩ 5-band resistor
 
 ![](/media/246cf3885dc837c458a28123885c9f7b.png)
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide:
 
@@ -105,6 +105,6 @@ The code was uploaded successfully.
 
 ![](/media/47dd7f6786120f6f15d429407daa74f3.png)
 
-### 7.**Result**
+7.**Result**
 
 Burn the project code, connect the wires and power on first. Then press the button, the LED will turn on. Press the button again, the LED will turn off.

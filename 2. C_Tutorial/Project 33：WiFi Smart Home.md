@@ -1,6 +1,6 @@
 # Project 33：WiFi Smart Home
 
-### **1. Introduction**
+**1. Introduction**
 
 In the previous project 32, we already knew how to connect the APP to WiFi and also use the APP to control the LED on and off on the pico board through WiFi for a simple experiment.
 
@@ -8,7 +8,7 @@ In this project, we will use APP to control multiple sensors or modules through 
 
 
 
-### **2. Components Required**
+**2. Components Required**
 
 | ![img](media/wps22.png)                 | ![img](media/wps23-168413018633160.jpg)                      | ![img](media/wps24-168413018874761.jpg) |
 | --------------------------------------- | ------------------------------------------------------------ | --------------------------------------- |
@@ -24,7 +24,7 @@ In this project, we will use APP to control multiple sensors or modules through 
 
 
 
-### **3. Plug the WiFi Module Serial Shield into the USB port of the computer**
+**3. Plug the WiFi Module Serial Shield into the USB port of the computer**
 
 Insert the ESP8266 serial WiFi ESP-01 module into the USB to ESP-01S WiFi module serial shield.
 
@@ -36,7 +36,7 @@ First, turn the DIP switch on the USB to ESP-01S WiFi module serial shield to th
 
 
 
-### **4. ESP8266 Code**
+**4. ESP8266 Code**
 
 Note：open Arduino IDE, set the ESP8266 board type and COM ports. If youdon’t have wifi in your home, just open your hotspot of your cellphone to connect with the device.
 
@@ -331,7 +331,7 @@ After the test code is uploaded successfully, first unplug the shield from the U
 
 
 
-### **5. Wiring Diagram**
+**5. Wiring Diagram**
 
 |     Relay module      |   Raspberry Pi Pico Expansion Board   |      | Temperature and Humidity sensor |   Raspberry Pi Pico Expansion Board   |
 | :-------------------: | :-----------------------------------: | ---- | :-----------------------------: | :-----------------------------------: |
@@ -355,7 +355,7 @@ After the test code is uploaded successfully, first unplug the shield from the U
 
 ![](/media/932e88af532bad7ad2feeb4c979ed77b.png)
 
-### **6. Project Code**
+**6. Project Code**
 
 Note: After opening the IDE, be sure to set the board type and COM port first. If you don't have WiFi at home, you need to turn your phone hotspot on to share WiFi.
 
@@ -495,7 +495,7 @@ int checkdistance() {
 
 
 
-### **7. Result**
+**7. Result**
 
 Note: Before uploading the project code, you need to unplug the TX and RX cables connected to the pico board first, otherwise the code will not be uploaded successfully. 
 
@@ -517,7 +517,7 @@ Click ![](/media/c26260f4b82d19ca26aeafe9722c59ee.png) to open the serial monito
 
 ![](/media/4e9178c990cf9d78fa0cbb95f9dd67bf.png)
 
-### **8. App for Android system devices(mobile phone/iPad)**
+**8. App for Android system devices(mobile phone/iPad)**
 
 Now transfer the“keyes wifi.apk” file from the folder to your Android phone or iPad, click the “keyes wifi.apk”file to enter the installation page. 
 
@@ -541,7 +541,7 @@ This shows that the App has been connected to WiFi.
 
 ![](/media/8313b73eaff11b2bfc2f854cefe0a9f8.jpeg)
 
-### **9. App for IOS system devices (mobile phone/iPad)**
+**9. App for IOS system devices (mobile phone/iPad)**
 
 1.  Open App Store.
     

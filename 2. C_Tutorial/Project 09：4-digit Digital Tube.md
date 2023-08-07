@@ -1,12 +1,12 @@
 # Project 09：4-Digit Digital Tube
 
-### 1.**Introduction**
+1.**Introduction**
 
 The 4-digit 7-segment digital tube is a very practical display device, and it is used for devices such as electronic clocks and score counters.
 
 Due to the low price and it is easy to use, more and more projects will use 4-digit 7-segment digital tubes. In this project, we will use the PLUS control board to control a 4-bit 7-segment digital tube to create a manual counter.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps1-16841109149931.png) | ![img](media/wps2-16841109183603.jpg) | ![img](media/wps3-16841109215435.jpg) |                                        |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- | -------------------------------------- |
@@ -16,7 +16,7 @@ Due to the low price and it is easy to use, more and more projects will use 4-di
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/ce987bf9a2ab398945c98b34d3f8a003.png)
 
@@ -34,13 +34,13 @@ Pins of control bit are G1, G2, G3 and G4.
 
 ![](/media/ea75d1b7414bf6f8c187fb32fea9bc83.png)
 
-### 4.**Wiring Diagram**
+4.**Wiring Diagram**
 
 ![](/media/4f64b9bf6b74ab49584f69c7465efa73.png)
 
 ![](/media/6bf1bae6af0324d50a37ab7a0cabee11.png)
 
-### 5.**Test Code**
+5.**Test Code**
 
 Go to the folder KS3025 Keyestudio Raspberry Pi Pico Learning Kit Complete Edition\\2. Windows System\\2. C\_Tutorial\\2. Projects\\Project 09：4-Digit Digital Tube\\Project\_09\_Four\_Digit\_Digital\_Tube
 
@@ -205,6 +205,6 @@ The code was uploaded successfully.
 
 ![](/media/e069c4c62d02a242a787bf1269617f9d.png)
 
-### 6.**Result**
+6.**Result**
 
 Upload the project code, wire up and power on, 4-digit digital tube circularly displays numbers from 0000 to 9999.

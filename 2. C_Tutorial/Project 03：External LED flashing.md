@@ -1,10 +1,10 @@
 # Project 03：External LED Flashing 
 
-### **1. Description：**
+**1. Description：**
 
 There is an onboard LED in Raspberry Pi Pico,which is a GP25 pin attached to the Raspberry Pi Pico. In this project, we will learn the effect of making the onboard LED blink.
 
-### **2. Components**
+**2. Components**
 
 | ![img](media/wps1.png) | ![img](media/wps2.jpg)              |
 | ---------------------- | ----------------------------------- |
@@ -18,9 +18,9 @@ There is an onboard LED in Raspberry Pi Pico,which is a GP25 pin attached to the
 
 
 
-### **3. Component Knowledge**
+**3. Component Knowledge**
 
-####  **LED:**
+**LED:**
 
 ![image-20230424163655660](media/image-20230424163655660.png)
 
@@ -28,7 +28,7 @@ It is a kind of semiconductor called "light-emitting diode", which is an electro
 
 ![](/media/f70404aa49540fd7aecae944c7c01f83.jpeg)
 
-#### **Resistor**
+**Resistor**
 
 A resistor is an electronic component in a circuit that restricts or regulates the flow current flow. Its unit is(Ω). 1 mΩ= 1000 kΩ，1kΩ=1000Ω.
 
@@ -66,7 +66,7 @@ The connection between current, voltage, and resistance can be expressed by the 
 
 ![](/media/b3eec552e4dfad361833730698621776.png)
 
-#### **Breadboard**
+**Breadboard**
 
 A breadboard is used to build and test circuits quickly before finalizing any circuit design. The breadboard has many holes into which circuit components like integrated circuits and resistors can be inserted. A typical breadboard is as follows.
 
@@ -86,7 +86,7 @@ When we connect DIP (Dual In-line Packages) components, such as integrated circu
 
 ![](/media/9b66ae2199e77fbc99b7b278dac0b567.png)
 
-### **4. Circuit Diagram and Wiring Diagram**
+**4. Circuit Diagram and Wiring Diagram**
 
 **How to use the keyestudio raspberry pico expansion board**
 
@@ -100,7 +100,7 @@ Interface the pico board with your computer with a USB cable.
 
 
 
-### **5. Circuit diagrams and wiring diagram：**
+**5. Circuit diagrams and wiring diagram：**
 
 Note: Cut off the pico board. Build up the circuit according to the circuit and wiring diagram.
 
@@ -128,7 +128,7 @@ How to identify the 220Ω five-band resistor
 
 ![](/media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### **6. Test Code：**
+**6. Test Code：**
 
 According to the circuit diagram, when Pico's GP16 outputs a high level, the LED will light up; when it outputs a low level, the LED light will be off. Therefore, we can make the LED flash repeatedly by controlling the GP16 to output high and low levels.
 
@@ -174,7 +174,7 @@ The code was uploaded successfully.
 
 ![](/media/253f1992ddf73ca401dde1797fcfcfca.png)
 
-### **7. Test Result**
+**7. Test Result**
 
 After the project code was uploaded successfully, the LED started flashing.
 

@@ -1,6 +1,6 @@
 # Project 30：Keypad Door
 
-### 1.**Introduction**
+1.**Introduction**
 
 Matrix keypads are the kind of keypads you see on cell phones, calculators, microwaves ovens, door locks, etc. They’re practically everywhere.
 
@@ -8,7 +8,7 @@ In this project, we will learn Raspberry Pi Pico and membrane 4\*4 matrix keyboa
 
 
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps1-168412949239841.png) | ![img](media/wps2-168412949371642.jpg) | ![img](media/wps3-168412949659544.jpg) | ![img](media/wps4-168412950021946.jpg) |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- |
@@ -18,7 +18,7 @@ In this project, we will learn Raspberry Pi Pico and membrane 4\*4 matrix keyboa
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **4\*4 Matrix keyboard:**
 
@@ -38,7 +38,7 @@ Take the column scan method as an example. Send a low level to column 4 (Pin4), 
 
 
 
-### 4.**Read the Value**
+4.**Read the Value**
 
 We start with a simple code to read the values of the 4\*4 matrix keyboard and print them in the serial monitor. 
 
@@ -94,7 +94,7 @@ Upload the code and power up with a USB cable, open the monitor and set baud rat
 
 
 
-### 5.**Circuit diagram and wiring diagram:**
+5.**Circuit diagram and wiring diagram:**
 
 We control the servo and the buzzer with a 4\*4 dot matrix module.
 
@@ -102,7 +102,7 @@ We control the servo and the buzzer with a 4\*4 dot matrix module.
 
 ![](/media/ccb5914d82d2b220e8a6afb944d13c54.png)
 
-### 6.**Test Code：**
+6.**Test Code：**
 
 You can open the code we provide: 
 
@@ -182,7 +182,7 @@ The code was uploaded successfully.
 
 ![](/media/8a021c28b4726ecf4b6778898a8c10f3.png)
 
-### 7. **Test Result:**
+7. **Test Result:**
 
 Upload the code and power up with a USB cable. to power on, you will see the phenomenon: press the keyboard to enter a 4-character password, if the input is correct (correct password: 1234), the servo will rotate a certain angle, and then return to the original location. 
 

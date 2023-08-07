@@ -1,10 +1,10 @@
 # Project 12：Active Buzzer
 
-### 1.**Introduction**
+1.**Introduction**
 
 Active buzzer is a sound making element, widely used on computers, printers, alarms, electronic toys, telephones, timers, etc. It has an inner vibration source. In this project, we will use a PLUS control board to control the active buzzer to buzz.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps1-168412163368013.png) | ![img](media/wps2-168412163499014.jpg) | ![img](media/wps3-168412164054115.jpg) |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- |
@@ -14,7 +14,7 @@ Active buzzer is a sound making element, widely used on computers, printers, ala
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 ![](/media/11ec5ddc982db9928341e858aab94652.png)
 
@@ -24,7 +24,7 @@ The passive buzzer is an integrated electronic buzzer with no internal vibration
 
 ![](/media/0f9825969867ac2d65bb1a19ed0ad2ab.png)
 
-### 4.**Circuit Diagram and Wiring Diagram**
+4.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/48e73ef2d6090fe7cda58c385bad2ab2.png)
 
@@ -38,7 +38,7 @@ Note:
     
 3.  The positive pole (“+”/long pin) of the active buzzer is connected to pin 16, and the negative pole (short pin) is connected to GND.
 
-### 5.**Test Code：** 
+5.**Test Code：** 
 
 You can open the code we provide:
 
@@ -80,6 +80,6 @@ The code was uploaded successfully.
 
 ![](/media/15450f19c2d0649b0f9def0cf8649c30.png)
 
-### 6.**Result**
+6.**Result**
 
 Upload the project code, wire up and power up, then the active buzzer buzzes.

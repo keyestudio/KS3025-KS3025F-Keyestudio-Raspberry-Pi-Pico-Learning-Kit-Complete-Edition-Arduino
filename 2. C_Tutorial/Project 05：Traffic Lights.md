@@ -1,6 +1,6 @@
 # Project 05：Traffic Lights
 
-### 1.**Introduction**
+1.**Introduction**
 
 Traffic lights are closely related to people's daily lives. Traffic lights generally show red, yellow, and green. Everyone should obey the traffic rules, which can avoid many traffic accidents. 
 
@@ -8,7 +8,7 @@ In this project, we will use a pico board and some LEDs (red, green and yellow) 
 
 
 
-### 2.**Component Required**
+2.**Component Required**
 
 | ![img](media/wps1-16841099448211.png) | ![img](media/wps2-16841099465682.jpg) | ![img](media/wps3.jpg)                |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- |
@@ -20,7 +20,7 @@ In this project, we will use a pico board and some LEDs (red, green and yellow) 
 
 
 
-### 3.**Circuit Diagram and Wiring Diagram**
+3.**Circuit Diagram and Wiring Diagram**
 
 ![](/media/4cf2ad735b0df82d62a5fcdb19ebf3c0.png)
 
@@ -36,7 +36,7 @@ How to identify the 220Ω 5-band resistor
 
 ![](/media/55c0199544e9819328f6d5778f10d7d0.png)
 
-### 4.**Test Code：**
+4.**Test Code：**
 
 You can open the code we provide:
 
@@ -91,6 +91,6 @@ The code was uploaded successfully.
 
 ![](/media/9f2d7d32f10975ee9fe661a306c22fdd.png)
 
-### 5.**Result**
+5.**Result**
 
 Upload the code and power on, the green LED will light up for 5s then go off. Next, the yellow one will blink for 3 times and red LED will be on for 5s then go off.

@@ -1,10 +1,10 @@
 # Project 10：8×8 Dot-matrix Display
 
-### 1.**Introduction**
+1.**Introduction**
 
 The dot-matrix display is an electronic digital display device that can show information on machines, clocks and many other devices. In this project, we will use the pico board control the 8x8 LED dot matrix to make a “❤” pattern.
 
-### 2.**Components Required**
+2.**Components Required**
 
 | ![img](media/wps11.png)                 | ![img](media/wps12-16841110406258.jpg)  | ![img](media/wps13-16841110482259.jpg) | ![img](media/wps14-168411104990010.jpg) |
 | --------------------------------------- | --------------------------------------- | -------------------------------------- | --------------------------------------- |
@@ -14,7 +14,7 @@ The dot-matrix display is an electronic digital display device that can show inf
 
 
 
-### 3.**Component Knowledge**
+3.**Component Knowledge**
 
 **8*8 Dot-matrix display module:**
 
@@ -26,13 +26,13 @@ For this reason, we specially designed this module, using the HT16K33 chip to dr
 
 ![](/media/bcfa2498367eaf9c7733da15af32eae7.png)
 
-### 4.**Circuit diagram and wiring diagram**
+4.**Circuit diagram and wiring diagram**
 
 ![](/media/dc2d64f3098b039937483e04589cbc17.png)
 
 ![](/media/094a47e28b2c735ab475ede10c0deb43.png)
 
-### 5.**Test Code**
+5.**Test Code**
 
 You can open the code we provide:
 
@@ -248,6 +248,6 @@ The code was uploaded successfully.
 
 ![](/media/7ec630e587152fa8ce6d0f9a83a9783d.png)
 
-### 6.**Test Result：**
+6.**Test Result：**
 
 You will view the 8*8 dot matrix show 0~9.
